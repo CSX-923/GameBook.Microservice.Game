@@ -17,7 +17,7 @@ GameBook.Microservice.Game stores each authenticated user's favorite games in Po
 
 ## Live demo
 
-Explore the API with [Swagger UI](https://gamebook-microservice-game.onrender.com/docs) or read the [OpenAPI JSON](https://gamebook-microservice-game.onrender.com/docs/openapi.json). The Render free tier may make the first request slow. The [GameBook Frontend](https://gamebook-frontend.vercel.app) is the client; favorite requests require an AuthUser JWT.
+Explore the API with [Swagger UI](https://gamebook-microservice-game.onrender.com/docs) or read the [OpenAPI JSON](https://gamebook-microservice-game.onrender.com/docs/openapi.json). The Render free tier may make the first request slow. The [GameBook Frontend](https://gamebook-system.vercel.app) is the client; favorite requests require an AuthUser JWT.
 
 ## Quick development
 
