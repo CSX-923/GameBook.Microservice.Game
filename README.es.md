@@ -17,7 +17,7 @@ GameBook.Microservice.Game almacena en PostgreSQL los juegos favoritos de cada u
 
 ## Demo en vivo
 
-Consulta la API con [Swagger UI](https://gamebook-microservice-game.onrender.com/docs) o lee el [JSON OpenAPI](https://gamebook-microservice-game.onrender.com/docs/openapi.json). En el plan gratuito de Render, la primera solicitud puede tardar. El [Frontend de GameBook](https://gamebook-frontend.vercel.app) es el cliente; las solicitudes de favoritos requieren un JWT de AuthUser.
+Consulta la API con [Swagger UI](https://gamebook-microservice-game.onrender.com/docs) o lee el [JSON OpenAPI](https://gamebook-microservice-game.onrender.com/docs/openapi.json). En el plan gratuito de Render, la primera solicitud puede tardar. El [Frontend de GameBook](https://gamebook-system.vercel.app) es el cliente; las solicitudes de favoritos requieren un JWT de AuthUser.
 
 ## Desarrollo rápido
 
