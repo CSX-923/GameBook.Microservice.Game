@@ -2,9 +2,9 @@
 
 [Español](README.es.md) · **Status: active — latest release v0.4.0**
 
-[![CI](https://github.com/CarlosSV923/GameBook.Microservice.Game/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/CarlosSV923/GameBook.Microservice.Game/actions/workflows/ci.yml)
+[![CI](https://github.com/CSX-923/GameBook.Microservice.Game/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/CSX-923/GameBook.Microservice.Game/actions/workflows/ci.yml)
 
-[![GameBook.Microservice.Game architecture](architecture/GameBook.Microservice.Game-architecture-en.svg)](https://carlossv923.github.io/GameBook.Microservice.Game/GameBook.Microservice.Game-architecture-en.html)
+[![GameBook.Microservice.Game architecture](architecture/GameBook.Microservice.Game-architecture-en.svg)](https://csx-923.github.io/GameBook.Microservice.Game/GameBook.Microservice.Game-architecture-en.html)
 
 GameBook.Microservice.Game stores each authenticated user's favorite games in PostgreSQL and exposes the API used by the GameBook frontend.
 
@@ -40,11 +40,11 @@ See the [development guide](docs/development.md) for environment, database, depl
 
 ## Architecture
 
-[![Sequence diagram (SVG)](architecture/GameBook.Microservice.Game-sequence-en.svg)](https://carlossv923.github.io/GameBook.Microservice.Game/GameBook.Microservice.Game-sequence-en.html)
+[![Sequence diagram (SVG)](architecture/GameBook.Microservice.Game-sequence-en.svg)](https://csx-923.github.io/GameBook.Microservice.Game/GameBook.Microservice.Game-sequence-en.html)
 
 The architecture diagram is at the top of this README. The API layer handles HTTP, validation, JWT authentication and OpenAPI. Application use cases and domain rules operate through ports, with Prisma and the AuthUser session client in the infrastructure layer.
 
-Browse all diagrams from the [GitHub Pages index](https://carlossv923.github.io/GameBook.Microservice.Game/).
+Browse all diagrams from the [GitHub Pages index](https://csx-923.github.io/GameBook.Microservice.Game/).
 
 ## Stack and decisions
 
@@ -58,8 +58,8 @@ Browse all diagrams from the [GitHub Pages index](https://carlossv923.github.io/
 
 ## Related projects
 
-- [GameBook.System](https://github.com/CarlosSV923/GameBook.System) — system documentation and local integration Compose.
-- [GameBook.Microservice.AuthUser](https://github.com/CarlosSV923/GameBook.Microservice.AuthUser) — accounts, authentication and session validation.
-- [GameBook.Frontend](https://github.com/CarlosSV923/GameBook.Frontend) — browser client for the GameBook APIs.
+- [GameBook.System](https://github.com/CSX-923/GameBook.System) — system documentation and local integration Compose.
+- [GameBook.Microservice.AuthUser](https://github.com/CSX-923/GameBook.Microservice.AuthUser) — accounts, authentication and session validation.
+- [GameBook.Frontend](https://github.com/CSX-923/GameBook.Frontend) — browser client for the GameBook APIs.
 
 Licensed under the [MIT License](LICENSE). © Carlos Sesme Vera.

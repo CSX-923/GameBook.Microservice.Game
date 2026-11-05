@@ -53,7 +53,7 @@ Changes are reviewed into `develop`, then `develop` is promoted to `main`. The r
 
 The Render web service deploys from `main`. Swagger UI is exposed at `/docs`, and the OpenAPI document at `/docs/openapi.json`. Render's free tier may make its first request slow.
 
-This repository contains a production `Dockerfile`; it does not contain a Compose file. The local multi-service Compose lives in [GameBook.System](https://github.com/CarlosSV923/GameBook.System), which connects Game to PostgreSQL and AuthUser on the local Docker network. Compose does not run migrations.
+This repository contains a production `Dockerfile`; it does not contain a Compose file. The local multi-service Compose lives in [GameBook.System](https://github.com/CSX-923/GameBook.System), which connects Game to PostgreSQL and AuthUser on the local Docker network. Compose does not run migrations.
 
 ## Quality commands
 

@@ -7,7 +7,7 @@
     "output": "architecture/GameBook.Microservice.Game-architecture-en.html",
     "quality_profile": "showcase",
     "repository": {
-      "url": "https://github.com/CarlosSV923/GameBook.Microservice.Game.git",
+      "url": "https://github.com/CSX-923/GameBook.Microservice.Game.git",
       "provider": "github",
       "link_mode": "web",
       "revision": "fb30d97282b0ccf54053d341d1801be759d80c88"
