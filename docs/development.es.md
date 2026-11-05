@@ -53,7 +53,7 @@ Los cambios se revisan en `develop` y luego se promueve `develop` a `main`. El w
 
 El servicio web de Render se despliega desde `main`. Swagger UI se publica en `/docs` y el documento OpenAPI en `/docs/openapi.json`. En el plan gratuito de Render, la primera solicitud puede tardar.
 
-Este repositorio incluye un `Dockerfile` de producción; no incluye un archivo Compose. El Compose local con varios servicios está en [GameBook.System](https://github.com/CarlosSV923/GameBook.System) y conecta Game con PostgreSQL y AuthUser en la red local de Docker. Compose no ejecuta migraciones.
+Este repositorio incluye un `Dockerfile` de producción; no incluye un archivo Compose. El Compose local con varios servicios está en [GameBook.System](https://github.com/CSX-923/GameBook.System) y conecta Game con PostgreSQL y AuthUser en la red local de Docker. Compose no ejecuta migraciones.
 
 ## Comandos de calidad
 
